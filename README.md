@@ -2,7 +2,7 @@
 
 **Training project**
 
-## [DEMO LINK](https://illia-kots.github.io/orders-and-products/#/)
+## [DEMO LINK](https://illia-kots.github.io/Orders-and-Products/)
 
 # Tech stack
   - ReactJS;
