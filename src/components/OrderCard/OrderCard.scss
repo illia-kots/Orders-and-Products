@@ -1,0 +1,85 @@
+.order-card {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 5px;
+  border: 1px solid #b4bdc3;
+  border-radius: 5px;
+  transition: box-shadow 0.5s;
+
+  &__title {
+    width: 300px;
+    margin-right: 40px;
+    font-weight: 600;
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b4bdc3;
+    border-radius: 50%;
+    color: #313237;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover {
+      border-radius: 10%;
+    }
+  }
+
+  &__date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    box-sizing: border-box;
+
+    &--time {
+      font-size: small;
+    }
+
+    &--fullDate {
+      font-weight: 600;
+    }
+  }
+
+  &__price {
+    width: 140px;
+    &--currency {
+      font-size: small;
+    }
+
+    &--default {
+      font-weight: 600;
+    }
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__trash {
+    margin-left: 50px;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: rotateY(180deg);
+    }
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &:hover {
+    box-shadow: 5px 7px 13px rgba(23, 32, 49, 0.26);
+  }
+}

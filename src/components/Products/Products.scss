@@ -1,0 +1,14 @@
+.products {
+  margin-bottom: 100px;
+
+  &-wrapper {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__count {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+}
